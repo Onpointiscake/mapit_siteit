@@ -1,0 +1,127 @@
+.leaflet-container{
+    height: 60vh;
+}
+.search-container{
+    margin-bottom: 20px;
+}
+.search-container h4{
+    margin: 10px !important;
+}
+.add-container h4{
+   margin-bottom: 10px !important;
+   
+}
+.add-container button{
+    margin-top: 10px !important;
+    margin-bottom: 20px !important;
+}
+.addsite-container{
+    padding: 20px 0px;
+}
+.added-items-container{
+    display: flex;
+    margin-bottom: 10px;
+}
+.added-items{
+    width: 70%;
+}
+.usergallery-container{
+    padding: 20px 0px;
+}
+.search-gallery-container, .search-gallery-container button{
+    margin: 0 !important;
+}
+.search-gallery-form{
+    padding-right: 0 !important;
+}
+.search-gallery-container, .search-gallery-col-1{
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+}
+.search-gallery-col-2{
+    padding-left: 5px !important;
+}
+.card-site{
+    margin-top: 15px;
+    padding: 10px 0px;
+}
+.card-site p{
+    font-size: 0.9em;
+}
+/* Edit Gallery Styles*/
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.inputfile + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    display: inline-block;
+}
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: red;
+}
+.showcase-container {
+    padding: 15px 0px;
+  }
+  .header-nav-container {
+    padding-top: 15px;
+  }
+  .upload-container {
+    margin-top: 10px;
+    padding-bottom: 0px;
+  }
+  .showcase-container img {
+    width: 70px;
+    height: 50px;
+    transition: 0.8s ease;
+    margin: 5px;
+  }
+  .showcase-container {
+    display: grid;
+    grid-gap: 6px;
+    padding: 25px 5px;
+    grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+  }
+  .pagination-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+  .pagination-container button{
+    padding: 0px 20px;
+  }
+  .previos,.next{
+    display: none;
+  }
+  
+  @media only screen and (min-width: 568px) {
+   
+    .showcase-container {
+      padding: 35px 0px;  
+    }
+    .share-container{
+      margin-top: 10px;
+    }
+    .showcase-container img {
+      width: 110px;
+      height: 80px;
+      transition: 0.8s ease;
+    }
+    .showcase-container img:hover {
+      box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.5);
+      transition: 0.8s ease;
+    }
+    .showcase-container {
+      display: grid;
+      grid-gap: 12px;
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+  }

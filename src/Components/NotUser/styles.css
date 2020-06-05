@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+    background-color: rgba(167, 214, 251, 0.7);
+  }
+/*TABLET*/
+.register-form{
+    padding: 40px 10%;
+}
+/*NORMAL*/
+@media (min-width: 968px){ 
+    .register-form{
+        padding: 30px 25%;
+    }
+    .card-deck-container{
+        padding: 20px;
+    }
+    .demo-btn{
+        width: 50%;
+        margin-bottom: 10%;
+        margin-left: 25%;
+    }
+}
+/*MOVILES*/
+@media (max-width: 568px){ 
+    .register-form{
+        padding: 20px 10%;
+    }
+    .demo-btn{
+        width: 70%;
+    }
+    .card-pitch{
+        padding: 20px 0px 25px 0px;
+    }
+}

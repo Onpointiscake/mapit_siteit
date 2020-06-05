@@ -1,0 +1,79 @@
+.navbar-cont{
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    font-size: 1.4em;
+}
+.logo{
+    font-weight: bold;
+}
+.login-btn{
+    margin-right: 10px;
+}
+@media (max-width: 600px) {
+    .login-btn{
+        margin-bottom: 10px;
+        margin-right: 0px;
+        margin-top: 20px;
+        width: 70%;
+    }
+    .register-btn{
+        width: 70%;
+    }
+    .jumbo-container-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .jumbo-container-2 h1,h4{
+        margin-bottom: 25px !important;
+    }
+    .jumbo-container-2 button{
+        align-self: flex-start !important;
+    }
+    .container-contact{
+       
+        padding-top: 30px;
+        width: 90% !important;
+    }
+    .col-contact-second{
+        margin-top: 10px;
+        margin-bottom: 15px;
+        width: 80% !important;
+    }
+}
+@media (min-width: 968px){
+    .jumbo{
+        display: flex;
+        padding-left: 8% !important;
+        padding-right: 8% !important;
+    }
+    .jumbo-container-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .jumbo-container-2 h1,h4{
+        margin-bottom: 25px !important;
+    }
+    .jumbo-container-2 button{
+        align-self: flex-start !important;
+    }
+    .container-contact{
+        padding-top: 30px;
+        width: 50% !important;
+    }
+    .col-contact-second{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .row-contact{
+        text-align: center;
+    }
+}
+.start-link{
+    text-decoration: none !important;
+    color: inherit !important;
+}
