@@ -4,8 +4,8 @@ Guarda tus fotos en albumes personalizados. Comparte tus albumes de tus viajes c
 
 # APIs externas usadas
 
-Leaflet API para crear mapa personalizado
-Pexels API para generar una foto insignia del lugar del album de fotos. 
+- Leaflet API para crear mapa personalizado
+- Pexels API para generar una foto insignia del lugar del album de fotos. 
 
 # Servicios en AWS
 
