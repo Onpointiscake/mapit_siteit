@@ -1,6 +1,6 @@
 ## Mapitsiteit app
 
-Guarda tus fotos en albumes personalizados. Comparte tus albumes de tus viajes con quien quieras. Crea un mapa con chinchetas de cada viaje que guardas fotos y mira como tu mapa va creciendo poco a poco!
+Guarda tus fotos en albumes personalizados. Comparte tus albumes de tus viajes con quien quieras. Crea un mapa con chinchetas de cada viaje y mira como tu mapa va creciendo poco a poco según vas recorriendo el mundo ;) 
 
 # APIs externas usadas
 
